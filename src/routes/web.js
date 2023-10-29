@@ -6,7 +6,7 @@ const router = express.Router();
 
 const initWebRoutes = (app) => {
   router.get("/", getHomePage);
-  router.get("/messaging-webhook", getWebHook);
+  router.get("/webhooks", getWebHook);
   router.post("/webhooks", postWebHook);
 
   // router.get("/about", (req, res) => {
