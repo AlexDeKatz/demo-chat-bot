@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import "dotenv/config";
-import configViewEngine from "./configs/viewEngine";
-import initWebRoutes from "./routes/web";
+import configViewEngine from "./configs/viewEngine.js";
+import initWebRoutes from "./routes/web.js";
 
 const app = express();
 
